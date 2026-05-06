@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+
+# ML model files (tracked via Git LFS — see .gitattributes)
+# *.pth and *.pt are intentionally NOT ignored here
+*.h5
+*.ckpt
+
+# Dataset files
+data/
+datasets/
+
+# Large files
+*.zip
+*.rar

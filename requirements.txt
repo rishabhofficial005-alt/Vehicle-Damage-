@@ -1,0 +1,21 @@
+# AutoGuard AI — Full-Stack Requirements
+# Install with: pip install -r requirements.txt
+
+# ── Core ML Framework ────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Backend (FastAPI server) ─────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9    # required for FastAPI file uploads
+
+# ── Frontend (Streamlit client) ──────────────────────────────────────
+streamlit>=1.32.0
+requests>=2.31.0           # HTTP client for calling the FastAPI backend
+
+# ── Image processing ─────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── Data validation (FastAPI) ────────────────────────────────────────
+pydantic>=2.0.0
